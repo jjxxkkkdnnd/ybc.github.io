@@ -1,0 +1,150 @@
+ <!DOCTYPE html>
+ <html lang="zh">
+ <head>
+ 	<meta charset="UTF-8">
+ 	
+ 	<title>老年人</title>
+	<style>
+		*{
+			margin: 0;
+			padding: 0;
+		}
+		.left{
+			float: left;
+			width: 50%;
+			height: 90vh;
+			background: #2a2a2e;
+			color: aliceblue;
+			text-align: center;
+			padding-top: 10vh;
+		}
+		.right{
+			float: left;
+			width: 50%;
+			height: 100vh;
+			background: #0d92b3;
+			color: antiquewhite;
+		}
+		.touxiang{
+			border-radius: 50%;
+			width: 30%;
+			border: 5px solid skyblue;
+			box-shadow: 3px 3px 10px blue;
+		}
+		.item{
+			padding: 9px;
+			width: 80%;
+			background: rgba(255, 0, 239, .6);
+			margin: 20px auto;
+			border-radius: 10px;
+			text-shadow: 2px 2px 5px rgba(  0, 255, 255, 1);
+			box-shadow: 2px 2px 5px black;
+			border: 3px solid hotpink;
+		}
+		a{
+			text-decoration: none;
+			color: aliceblue;
+		}
+		span{
+			color: aqua;
+			animation: shadowing 1s ease-in-out infinite alternate;
+		}
+		
+		@keyframes shadowing {
+			to{
+				color: #ff0266;
+				text-shadow: 20px 0 70px #ff0266;
+			}
+		}
+		span:nth-child(n + 2){
+			animation-delay: 0.2s;
+		}
+		span:nth-child(n + 3){
+			animation-delay: 0.4s;
+		}
+		span:nth-child(n + 4){
+			animation-delay: 0.6s;
+		}
+		span:nth-child(n + 5){
+			animation-delay: 0.8s;
+		}
+		span:nth-child(n + 6){
+			animation-delay: 1s;
+		}
+		span:nth-child(n + 7){
+			animation-delay: 1.2s;
+		}
+		span:nth-child(n + 8){
+			animation-delay: 1.4s;
+		}
+		span:nth-child(n + 9){
+			animation-delay: 1.6s;
+		}
+		span:nth-child(n + 10){
+			animation-delay: 1.8s;
+		}
+		span:nth-child(n + 11){
+			animation-delay: 2.0s;
+		}
+	</style>
+ </head>
+ <body>
+ 	<div class="left">
+		<img src="tx.jpg" class="touxiang">
+		<div class="text-area">
+			<span>原</span>
+			<span>史</span>
+			<span>人</span>
+		</div>
+		<div class="text-area">
+			<span>“</span>
+			<span>读</span>
+			<span>万</span>
+			<span>卷</span>
+			<span>书</span>
+			<span>，</span>
+			<span>行</span>
+			<span>万</span>
+			<span>里</span>
+			<span>路</span>
+			<span>”</span>
+		</div>
+		
+	</div>
+	<div class="right">
+		<a href="wz1.html">
+		<div class="item">
+			<div class="text-area">
+				<span>GG</span>
+				<span>Bond</span>
+				</div>
+			<p>相关臭文...</p>
+		</div>
+		</a>
+		<a href="wz2.html">
+		<div class="item">
+			<h2>屁王</h2>
+			<p>相关臭文...</p>
+		</div>
+		</a>
+		<a href="wz3.html">
+		<div class="item">
+			<h2>萝卜勾</h2>
+			<p>相关臭文...</p>
+		</div>
+		</a>
+		<a href="wz4.html">
+		<div class="item">
+			<h2>瓜皮</h2>
+			<p>相关臭文...</p>
+		</div>
+		</a>
+		<a href="wz5.html">
+		<div class="item">
+			<h2>青头蛇</h2>
+			<p>相关臭文...</p>
+		</div>
+		</a>
+	</div>
+ </body>
+ </html>
